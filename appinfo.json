@@ -1,0 +1,69 @@
+{
+  "uuid": "b9339182-cd29-4848-bc6a-994191d16e32",
+  "shortName": "Wachface1",
+  "longName": "Watchface1",
+  "companyName": "hbh7",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+   "dummy": 0
+  },
+  "resources": {
+    "media": [
+		{
+			"menuIcon": true,
+			"type": "png",
+			"name": "IMAGE_MENU_ICON",
+			"file": "images/menu_icon.png"
+		},{
+			"type": "font",
+			"name": "FONT_HACK_35",
+			"file": "fonts/Hack-Regular.ttf"
+		},{
+			"type": "font",
+			"name": "FONT_HACK_20",
+			"file": "fonts/Hack-Regular.ttf"
+		},{
+			"type": "font",
+			"name": "FONT_HACK_25",
+			"file": "fonts/Hack-Regular.ttf"
+		},{
+			"type": "font",
+			"name": "FONT_HACK_15",
+			"file": "fonts/Hack-Regular.ttf"
+		},{
+			"type": "font",
+			"name": "FONT_HACK_10",
+			"file": "fonts/Hack-Regular.ttf"
+		},{
+			"type": "font",
+			"name": "FONT_HACK_12",
+			"file": "fonts/Hack-Regular.ttf"
+		},{
+			"type": "font",
+			"name": "FONT_HACK_18",
+			"file": "fonts/Hack-Regular.ttf"
+		},{
+			"type": "png",
+			"name": "IMAGE_BACKGROUND",
+			"file": "images/potato_new.png"
+		},{
+			"type": "png-trans",
+			"name": "IMAGE_BT_ACTIVE",
+			"file": "images/bt-active.png"
+		},{
+			"type": "png-trans",
+			"name": "IMAGE_BT_INACTIVE",
+			"file": "images/bt-inactive.png"
+		},{
+			"type": "raw",
+			"name": "DATA_DATA_TXT",
+			"file": "data/data.txt"
+		}
+	]
+  }
+}
