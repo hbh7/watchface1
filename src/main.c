@@ -138,7 +138,7 @@ static void update_block() {
 	static char TueBlock7P1Layer2[64] = "Ends 11:30,";
 	static char TueBlock7P2Layer1[64] = "B7: Precalc H";
 	static char TueBlock7P2Layer2[64] = "Ends 12:40,";
-	static char TueBlock8Layer1[64] = "B8: Study Hall";
+	static char TueBlock8Layer1[64] = "B8: Psychology";
 	static char TueBlock8Layer2[64] = "Ends 1:34,";
 	static char TueBlock9Layer1[64] = "B9: Advistory";
 	static char TueBlock9Layer2[64] = "Ends 2:14,";
