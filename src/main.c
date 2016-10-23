@@ -42,7 +42,7 @@ static void battery_callback(BatteryChargeState state) {
 	static char batbuffer[16];
 	snprintf(batbuffer, sizeof(batbuffer), "%d", state.charge_percent);
 
-	static char battery_text[] = "100%";
+	static char battery_text[] = "80%";
 	snprintf(battery_text, sizeof(battery_text), "%d%%", state.charge_percent);
 	text_layer_set_text(s_batterypercent_layer, battery_text); 
 }
